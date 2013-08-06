@@ -1,3 +1,11 @@
+/*
+Type: jQuery Plugin
+Author: Tirumal
+Website: www.code-tricks.com
+Description: jQuery Social Sharer Plugin
+License: GNU GENERAL PUBLIC LICENSE V2.0
+*/
+
 ;(function($){
   $.fn.jqSocialSharer = function(options){
     
