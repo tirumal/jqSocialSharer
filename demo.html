@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset=utf-8 />
+<title>jQuery Social Sharer</title>
+</head>
+<body>
+  
+  <h1>Social Buttons with Pop-up</h1>
+  
+  <div id="share">
+    <a href="#" class="twitter" data-social='{"type":"twitter", "url":"http://code-tricks.com/51-best-jquery-plugins/", "text": "51 Best jQuery Plugins"}' title="code-tricks">Share on Twitter</a>
+  
+    <br>
+  
+  <a href="#" class="facebook" data-social='{"type":"facebook", "url":"http://code-tricks.com/51-best-jquery-plugins/", "text": "51 Best jQuery Plugins"}' title="code-tricks">Share on facebook</a>
+    <br>
+     <a href="#" class="plusone" data-social='{"type":"plusone", "url":"http://code-tricks.com/51-best-jquery-plugins/", "text": "51 Best jQuery Plugins"}' title="code-tricks">Share on Google Plus</a>
+    
+    
+  </div>
+  
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="jqSocialSharer.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $("#share a").jqSocialSharer();
+  });  
+</script>
+</body>
+</html>
