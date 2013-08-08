@@ -2,6 +2,7 @@
 Type: jQuery Plugin
 Author: Tirumal
 Website: www.code-tricks.com
+Plugin URL: http://code-tricks.com/customized-jquery-social-sharing-pop-up-window/
 Description: jQuery Social Sharer Plugin
 License: GNU GENERAL PUBLIC LICENSE V2.0
 */
