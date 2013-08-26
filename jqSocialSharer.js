@@ -1,5 +1,7 @@
 /*
+Name: jqSocialSharer
 Type: jQuery Plugin
+Version: 2.0
 Author: Tirumal
 Website: www.code-tricks.com
 Plugin URL: http://code-tricks.com/customized-jquery-social-sharing-pop-up-window/
@@ -37,7 +39,8 @@ License: GNU GENERAL PUBLIC LICENSE V2.0
             url,
             useCurrentLoc = settings.useCurrentLocation,
             socialURL = (useCurrentLoc) ? window.location : encodeURIComponent(social.url),
-            socialText = social.text;
+            socialText = social.text,
+            socialImage = encodeURIComponent(social.image);
         
         switch(social.type){
             case 'facebook':
@@ -48,6 +51,9 @@ License: GNU GENERAL PUBLIC LICENSE V2.0
                 break;
             case 'plusone':
                 url = 'https://plusone.google.com/_/+1/confirm?hl=en&url=' + socialURL;
+                break;
+            case 'pinterest':
+                url = 'http://pinterest.com/pin/create/button/?url=' + socialURL + '&media=' + socialImage + '&description=' + socialText ;
                 break;
         }
    
