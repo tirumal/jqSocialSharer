@@ -44,7 +44,7 @@ License: GNU GENERAL PUBLIC LICENSE V2.0
         
         switch(social.type){
             case 'facebook':
-                url = 'http://www.facebook.com/sharer.php?u='+ socialURL + '&t=' + socialText;
+                url = 'https://www.facebook.com/sharer/sharer.php?s=100&p[url]='+socialURL+'&p[images][0]='+socialImage+'&p[title]='+socialText+'&p[summary]';
                 break;
             case 'twitter':
                 url = 'http://twitter.com/share?url='+ socialURL + '&text=' + socialText;
