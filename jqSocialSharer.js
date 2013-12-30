@@ -1,7 +1,7 @@
 /*
 Name: jqSocialSharer
 Type: jQuery Plugin
-Version: 2.0
+Version: 2.1
 Author: Tirumal
 Website: www.code-tricks.com
 Plugin URL: http://code-tricks.com/customized-jquery-social-sharing-pop-up-window/
