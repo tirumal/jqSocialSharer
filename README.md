@@ -23,3 +23,9 @@ jQuery Social Sharer Plugin for Twitter, Facebook and plusone
 <ol>
 <li>Added Pinterest Support</li>
 </ol>
+
+<h3>jqSocialSharer V2.1 : </h3>
+
+<ol>
+<li>Custom Image support for Facebook Pop-up window</li>
+</ol>
